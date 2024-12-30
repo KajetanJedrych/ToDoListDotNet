@@ -16,7 +16,7 @@ namespace ToDoList.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public CategoryController(ApplicationDbContext context)
+ public CategoryController(ApplicationDbContext context)
         {
             _context = context;
         }

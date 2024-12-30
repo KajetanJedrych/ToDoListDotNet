@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:00:36.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeToolTip": "ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:00:35.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\appsettings.json",
               "RelativeDocumentMoniker": "ToDoList\\appsettings.json",
               "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\appsettings.json",
               "RelativeToolTip": "ToDoList\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-26T20:29:26.079Z",
               "EditorCaption": ""
