@@ -295,3 +295,4 @@ D:\Studia\magister-3-semestr\DotNet\ToDoList\ToDoList\obj\Debug\net8.0\refint\To
 D:\Studia\magister-3-semestr\DotNet\ToDoList\ToDoList\obj\Debug\net8.0\ToDoList.pdb
 D:\Studia\magister-3-semestr\DotNet\ToDoList\ToDoList\obj\Debug\net8.0\ToDoList.genruntimeconfig.cache
 D:\Studia\magister-3-semestr\DotNet\ToDoList\ToDoList\obj\Debug\net8.0\ref\ToDoList.dll
+D:\Studia\magister-3-semestr\DotNet\ToDoList\ToDoList\obj\Debug\net8.0\ToDoList.sourcelink.json

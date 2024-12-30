@@ -189,6 +189,17 @@ namespace ToDoList.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        [HttpPost]
+        public async Task<IActionResult> UpdateMultipleStatus([FromBody] int[] ids)
+        {
+            var tasks = await _context.TaskItems.Where(t => ids.Contains(t.Id)).ToListAsync();
+            foreach (var task in tasks)
+            {
+                task.Status = Models.TaskStatus.Completed;
+            }
+            await _context.SaveChangesAsync();
+            return Json(new { success = true });
+        }
 
         private bool TaskItemExists(int id)
         {

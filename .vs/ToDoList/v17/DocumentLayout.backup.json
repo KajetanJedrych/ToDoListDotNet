@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\views\\taskitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\views\\taskitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\viewmodels\\taskitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\viewmodels\\taskitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\views\\taskitem\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\views\\taskitem\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|d:\\studia\\magister-3-semestr\\dotnet\\todolist\\todolist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFF52D0-E726-42E3-B27E-3431A6F15BA7}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +62,173 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\appsettings.json",
-              "RelativeDocumentMoniker": "ToDoList\\appsettings.json",
-              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\appsettings.json",
-              "RelativeToolTip": "ToDoList\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-26T20:29:26.079Z",
+              "DocumentIndex": 1,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Models\\TaskItem.cs",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Models\\TaskItem.cs",
+              "RelativeToolTip": "ToDoList\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:06:16.917Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskItemViewModel.cs",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\ViewModels\\TaskItemViewModel.cs",
+              "RelativeDocumentMoniker": "ToDoList\\ViewModels\\TaskItemViewModel.cs",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\ViewModels\\TaskItemViewModel.cs",
+              "RelativeToolTip": "ToDoList\\ViewModels\\TaskItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:05:03.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Views\\TaskItem\\Details.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Views\\TaskItem\\Details.cshtml",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Views\\TaskItem\\Details.cshtml",
+              "RelativeToolTip": "ToDoList\\Views\\TaskItem\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:01:49.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ToDoList\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:34:57.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Views\\TaskItem\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Views\\TaskItem\\Index.cshtml",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Views\\TaskItem\\Index.cshtml*",
+              "RelativeToolTip": "ToDoList\\Views\\TaskItem\\Index.cshtml*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:31:56.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:28:33.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "ToDoList\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:24:36.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "ToDoList\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:23:57.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Controllers\\TestController.cs",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Controllers\\TestController.cs",
+              "RelativeToolTip": "ToDoList\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T07:20:55.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ToDoList\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAwJYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T07:16:39.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ToDoList\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T07:14:49.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:04:23.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "D:\\Studia\\magister-3-semestr\\DotNet\\ToDoList\\ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "ToDoList\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:00:36.408Z"
             }
           ]
         }

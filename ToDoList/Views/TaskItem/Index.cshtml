@@ -4,47 +4,46 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Task List</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<div class="mb-3 d-flex justify-content-between">
+    <button id="markSelectedDone" class="btn btn-success" disabled>
+        <i class="fas fa-check"></i> DONE
+    </button>
+    <a asp-action="Create" class="btn btn-primary">
+        <i class="fas fa-plus"></i> Create New
+    </a>
+</div>
+
+
+<h2>Pending Tasks</h2>
+<table class="table" id="pendingTasksTable">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th>
-                Actions
-            </th>
+            <th>@Html.DisplayNameFor(model => model.Title)</th>
+            <th>@Html.DisplayNameFor(model => model.Description)</th>
+            <th>@Html.DisplayNameFor(model => model.Status)</th>
+            <th>@Html.DisplayNameFor(model => model.Category)</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category.Name)
-            </td>
-            <td>
+        @foreach (var item in Model.Where(x => x.Status != ToDoList.Models.TaskStatus.Completed))
+
+        {
+            <tr>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <input type="checkbox"
+                               class="task-checkbox me-2"
+                               data-task-id="@item.Id">
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </div>
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                <td>@Html.DisplayFor(modelItem => item.Category.Name)</td>
+                <td>
                     <a class="btn btn-primary" style="padding: 5px 10px; font-size: 12px;" asp-action="Edit" asp-route-id="@item.Id">
                         <i class="fas fa-edit"></i> Edit
                     </a> |
@@ -54,8 +53,73 @@
                     <a class="btn btn-danger" style="padding: 5px 10px; font-size: 12px;" asp-action="Delete" asp-route-id="@item.Id">
                         <i class="fas fa-trash"></i> Delete
                     </a>
-            </td>
-        </tr>
-}
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<h2>Completed Tasks</h2>
+<table class="table" id="completedTasksTable">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Title)</th>
+            <th>@Html.DisplayNameFor(model => model.Description)</th>
+            <th>@Html.DisplayNameFor(model => model.Category)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Where(x => x.Status == ToDoList.Models.TaskStatus.Completed))
+
+        {
+            <tr class="table-secondary">
+                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td>@Html.DisplayFor(modelItem => item.Category.Name)</td>
+                <td>
+                    <a class="btn btn-success" style="padding: 5px 10px; font-size: 12px;" asp-action="Details" asp-route-id="@item.Id">
+                        <i class="fas fa-info-circle"></i> Details
+                    </a> |
+                    <a class="btn btn-danger" style="padding: 5px 10px; font-size: 12px;" asp-action="Delete" asp-route-id="@item.Id">
+                        <i class="fas fa-trash"></i> Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Enable/Disable button based on selection
+            $('.task-checkbox').on('change', function () {
+                var selectedCount = $('.task-checkbox:checked').length;
+                $('#markSelectedDone').prop('disabled', selectedCount === 0);
+            });
+
+            // Handle "Mark as Completed" button click
+            $('#markSelectedDone').click(function () {
+                var selectedIds = $('.task-checkbox:checked').map(function () {
+                    return $(this).data('task-id');
+                }).get();
+
+                if (selectedIds.length === 0) {
+                    alert('Please select at least one task');
+                    return;
+                }
+
+                $.ajax({
+                    url: '/TaskItem/UpdateMultipleStatus',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(selectedIds),
+                    success: function () {
+                        location.reload();
+                    }
+                });
+            });
+        });
+    </script>
+}
